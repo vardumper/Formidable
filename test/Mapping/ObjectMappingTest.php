@@ -48,7 +48,7 @@ class ObjectMappingTest extends TestCase
     public function testConstructionWithNonExistentClassName()
     {
         $this->expectException(NonExistentMappedClassException::class);
-        return new ObjectMapping([], 'DASPRiD\FormidableTest\Mapping\NonExistentClassName');
+        return new ObjectMapping([], 'vardumper\FormidableTest\Mapping\NonExistentClassName');
     }
 
     public function testWithMapping()
