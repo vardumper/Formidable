@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping;
 
-use DASPRiD\Formidable\Mapping\Constraint\ConstraintInterface;
-use DASPRiD\Formidable\Mapping\MappingInterface;
+use vardumper\Formidable\Mapping\Constraint\ConstraintInterface;
+use vardumper\Formidable\Mapping\MappingInterface;
 
 trait MappingTraitTestTrait
 {

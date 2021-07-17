@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidStepException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\MissingDecimalDependencyException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidStepException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Constraint\Exception\MissingDecimalDependencyException;
 use Litipk\BigNumbers\Decimal;
 use Litipk\BigNumbers\DecimalConstants;
 

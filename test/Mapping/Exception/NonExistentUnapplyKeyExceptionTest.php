@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Exception;
 
-use DASPRiD\Formidable\Mapping\Exception\NonExistentUnapplyKeyException;
+use vardumper\Formidable\Mapping\Exception\NonExistentUnapplyKeyException;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

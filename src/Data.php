@@ -3,10 +3,10 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable;
 
-use DASPRiD\Formidable\Exception\InvalidKeyException;
-use DASPRiD\Formidable\Exception\InvalidValueException;
-use DASPRiD\Formidable\Exception\NonExistentKeyException;
-use DASPRiD\Formidable\Transformer\TransformerInterface;
+use vardumper\Formidable\Exception\InvalidKeyException;
+use vardumper\Formidable\Exception\InvalidValueException;
+use vardumper\Formidable\Exception\NonExistentKeyException;
+use vardumper\Formidable\Transformer\TransformerInterface;
 
 final class Data
 {

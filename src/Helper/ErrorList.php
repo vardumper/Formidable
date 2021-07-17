@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Helper;
 
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\FormError\FormErrorSequence;
 use DOMDocument;
 
 final class ErrorList

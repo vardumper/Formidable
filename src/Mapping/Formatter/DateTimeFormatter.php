@@ -3,10 +3,10 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Formatter;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\Mapping\BindResult;
-use DASPRiD\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\Mapping\BindResult;
+use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 use DateTimeImmutable;
 use DateTimeInterface;
 use DateTimeZone;

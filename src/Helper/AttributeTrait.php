@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Helper;
 
-use DASPRiD\Formidable\Helper\Exception\InvalidHtmlAttributeKeyException;
-use DASPRiD\Formidable\Helper\Exception\InvalidHtmlAttributeValueException;
+use vardumper\Formidable\Helper\Exception\InvalidHtmlAttributeKeyException;
+use vardumper\Formidable\Helper\Exception\InvalidHtmlAttributeValueException;
 use DOMNode;
 
 trait AttributeTrait

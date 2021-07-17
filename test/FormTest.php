@@ -3,13 +3,13 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Exception\InvalidDataException;
-use DASPRiD\Formidable\Exception\UnboundDataException;
-use DASPRiD\Formidable\Form;
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\Mapping\BindResult;
-use DASPRiD\Formidable\Mapping\MappingInterface;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Exception\InvalidDataException;
+use vardumper\Formidable\Exception\UnboundDataException;
+use vardumper\Formidable\Form;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\Mapping\BindResult;
+use vardumper\Formidable\Mapping\MappingInterface;
 use PHPUnit_Framework_TestCase as TestCase;
 use Prophecy\Argument;
 use Psr\Http\Message\ServerRequestInterface;

@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Helper;
 
-use DASPRiD\Formidable\Helper\Exception\NonExistentMessageException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\MissingIntlExtensionException;
+use vardumper\Formidable\Helper\Exception\NonExistentMessageException;
+use vardumper\Formidable\Mapping\Constraint\Exception\MissingIntlExtensionException;
 use MessageFormatter;
 
 final class ErrorFormatter

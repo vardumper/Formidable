@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Exception;
 
-use DASPRiD\Formidable\Exception\NonExistentKeyException;
+use vardumper\Formidable\Exception\NonExistentKeyException;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

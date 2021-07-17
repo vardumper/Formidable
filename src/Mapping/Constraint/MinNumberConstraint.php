@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidLimitException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\MissingDecimalDependencyException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidLimitException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Constraint\Exception\MissingDecimalDependencyException;
 use Litipk\BigNumbers\Decimal;
 
 final class MinNumberConstraint implements ConstraintInterface

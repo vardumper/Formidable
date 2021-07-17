@@ -3,14 +3,14 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Mapping\BindResult;
-use DASPRiD\Formidable\Mapping\Constraint\ConstraintInterface;
-use DASPRiD\Formidable\Mapping\Constraint\ValidationError;
-use DASPRiD\Formidable\Mapping\Constraint\ValidationResult;
-use DASPRiD\Formidable\Mapping\FieldMapping;
-use DASPRiD\Formidable\Mapping\Formatter\FormatterInterface;
-use DASPRiD\Formidable\Mapping\MappingInterface;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Mapping\BindResult;
+use vardumper\Formidable\Mapping\Constraint\ConstraintInterface;
+use vardumper\Formidable\Mapping\Constraint\ValidationError;
+use vardumper\Formidable\Mapping\Constraint\ValidationResult;
+use vardumper\Formidable\Mapping\FieldMapping;
+use vardumper\Formidable\Mapping\Formatter\FormatterInterface;
+use vardumper\Formidable\Mapping\MappingInterface;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

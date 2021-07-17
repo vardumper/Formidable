@@ -3,10 +3,10 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\Mapping\Constraint\ConstraintInterface;
-use DASPRiD\Formidable\Mapping\Constraint\ValidationError;
-use DASPRiD\Formidable\Mapping\Constraint\ValidationResult;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\Mapping\Constraint\ConstraintInterface;
+use vardumper\Formidable\Mapping\Constraint\ValidationError;
+use vardumper\Formidable\Mapping\Constraint\ValidationResult;
 
 trait MappingTrait
 {

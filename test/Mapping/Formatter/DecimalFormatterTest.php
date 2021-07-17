@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Formatter;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Mapping\Formatter\DecimalFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Mapping\Formatter\DecimalFormatter;
+use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

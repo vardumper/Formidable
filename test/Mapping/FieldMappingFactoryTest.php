@@ -3,20 +3,20 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping;
 
-use DASPRiD\Formidable\Mapping\Constraint\EmailAddressConstraint;
-use DASPRiD\Formidable\Mapping\Constraint\NotEmptyConstraint;
-use DASPRiD\Formidable\Mapping\Constraint\UrlConstraint;
-use DASPRiD\Formidable\Mapping\FieldMapping;
-use DASPRiD\Formidable\Mapping\FieldMappingFactory;
-use DASPRiD\Formidable\Mapping\Formatter\BooleanFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\DateFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\DateTimeFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\DecimalFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\FloatFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\IgnoredFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\IntegerFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\TextFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\TimeFormatter;
+use vardumper\Formidable\Mapping\Constraint\EmailAddressConstraint;
+use vardumper\Formidable\Mapping\Constraint\NotEmptyConstraint;
+use vardumper\Formidable\Mapping\Constraint\UrlConstraint;
+use vardumper\Formidable\Mapping\FieldMapping;
+use vardumper\Formidable\Mapping\FieldMappingFactory;
+use vardumper\Formidable\Mapping\Formatter\BooleanFormatter;
+use vardumper\Formidable\Mapping\Formatter\DateFormatter;
+use vardumper\Formidable\Mapping\Formatter\DateTimeFormatter;
+use vardumper\Formidable\Mapping\Formatter\DecimalFormatter;
+use vardumper\Formidable\Mapping\Formatter\FloatFormatter;
+use vardumper\Formidable\Mapping\Formatter\IgnoredFormatter;
+use vardumper\Formidable\Mapping\Formatter\IntegerFormatter;
+use vardumper\Formidable\Mapping\Formatter\TextFormatter;
+use vardumper\Formidable\Mapping\Formatter\TimeFormatter;
 use DateTimeZone;
 use PHPUnit_Framework_TestCase as TestCase;
 

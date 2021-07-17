@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\FormError;
 
-use DASPRiD\Formidable\FormError\FormError;
+use vardumper\Formidable\FormError\FormError;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

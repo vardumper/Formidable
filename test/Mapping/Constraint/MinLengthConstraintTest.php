@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidLengthException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
-use DASPRiD\Formidable\Mapping\Constraint\MinLengthConstraint;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidLengthException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Constraint\MinLengthConstraint;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

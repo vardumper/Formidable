@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable;
 
-use DASPRiD\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\FormError\FormErrorSequence;
 
 final class Field
 {

@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 
 final class UrlConstraint implements ConstraintInterface
 {

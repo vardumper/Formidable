@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 
 class NotEmptyConstraint implements ConstraintInterface
 {

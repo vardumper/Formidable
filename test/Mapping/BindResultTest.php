@@ -3,12 +3,12 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping;
 
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
-use DASPRiD\Formidable\Mapping\BindResult;
-use DASPRiD\Formidable\Mapping\Exception\InvalidBindResultException;
-use DASPRiD\Formidable\Mapping\Exception\ValidBindResultException;
-use DASPRiD\FormidableTest\FormError\FormErrorAssertion;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\Mapping\BindResult;
+use vardumper\Formidable\Mapping\Exception\InvalidBindResultException;
+use vardumper\Formidable\Mapping\Exception\ValidBindResultException;
+use vardumper\FormidableTest\FormError\FormErrorAssertion;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

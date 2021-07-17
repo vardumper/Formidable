@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\Data;
+use vardumper\Formidable\Data;
 
 final class OptionalMapping implements MappingInterface
 {

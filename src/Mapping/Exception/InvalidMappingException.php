@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Exception;
 
-use DASPRiD\Formidable\Mapping\MappingInterface;
+use vardumper\Formidable\Mapping\MappingInterface;
 use DomainException;
 
 final class InvalidMappingException extends DomainException implements ExceptionInterface

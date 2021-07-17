@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Exception;
 
-use DASPRiD\Formidable\Mapping\Exception\InvalidMappingKeyException;
+use vardumper\Formidable\Mapping\Exception\InvalidMappingKeyException;
 use PHPUnit_Framework_TestCase as TestCase;
 use stdClass;
 

@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Mapping\Formatter\FormatterInterface;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Mapping\Formatter\FormatterInterface;
 
 final class FieldMapping implements MappingInterface
 {

@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Helper;
 
-use DASPRiD\Formidable\Field;
+use vardumper\Formidable\Field;
 use DOMDocument;
 
 final class Textarea

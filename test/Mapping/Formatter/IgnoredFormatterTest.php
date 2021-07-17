@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Formatter;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Mapping\Formatter\IgnoredFormatter;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Mapping\Formatter\IgnoredFormatter;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

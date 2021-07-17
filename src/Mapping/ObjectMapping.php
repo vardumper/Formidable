@@ -3,16 +3,16 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
-use DASPRiD\Formidable\Mapping\Exception\BindFailureException;
-use DASPRiD\Formidable\Mapping\Exception\InvalidMappingException;
-use DASPRiD\Formidable\Mapping\Exception\InvalidMappingKeyException;
-use DASPRiD\Formidable\Mapping\Exception\InvalidUnapplyResultException;
-use DASPRiD\Formidable\Mapping\Exception\MappedClassMismatchException;
-use DASPRiD\Formidable\Mapping\Exception\NonExistentMappedClassException;
-use DASPRiD\Formidable\Mapping\Exception\NonExistentUnapplyKeyException;
-use DASPRiD\Formidable\Mapping\Exception\UnbindFailureException;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\Mapping\Exception\BindFailureException;
+use vardumper\Formidable\Mapping\Exception\InvalidMappingException;
+use vardumper\Formidable\Mapping\Exception\InvalidMappingKeyException;
+use vardumper\Formidable\Mapping\Exception\InvalidUnapplyResultException;
+use vardumper\Formidable\Mapping\Exception\MappedClassMismatchException;
+use vardumper\Formidable\Mapping\Exception\NonExistentMappedClassException;
+use vardumper\Formidable\Mapping\Exception\NonExistentUnapplyKeyException;
+use vardumper\Formidable\Mapping\Exception\UnbindFailureException;
 use ReflectionClass;
 use ReflectionProperty;
 use Throwable;

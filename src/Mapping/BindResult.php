@@ -3,10 +3,10 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
-use DASPRiD\Formidable\Mapping\Exception\InvalidBindResultException;
-use DASPRiD\Formidable\Mapping\Exception\ValidBindResultException;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\Mapping\Exception\InvalidBindResultException;
+use vardumper\Formidable\Mapping\Exception\ValidBindResultException;
 
 final class BindResult
 {

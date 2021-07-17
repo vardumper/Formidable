@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping;
 
-use DASPRiD\Formidable\Transformer\TrimTransformer;
+use vardumper\Formidable\Transformer\TrimTransformer;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

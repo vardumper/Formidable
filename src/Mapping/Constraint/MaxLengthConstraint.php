@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidLengthException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidLengthException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 
 final class MaxLengthConstraint implements ConstraintInterface
 {

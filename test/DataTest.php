@@ -3,11 +3,11 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Exception\InvalidKeyException;
-use DASPRiD\Formidable\Exception\InvalidValueException;
-use DASPRiD\Formidable\Exception\NonExistentKeyException;
-use DASPRiD\Formidable\Transformer\TransformerInterface;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Exception\InvalidKeyException;
+use vardumper\Formidable\Exception\InvalidValueException;
+use vardumper\Formidable\Exception\NonExistentKeyException;
+use vardumper\Formidable\Transformer\TransformerInterface;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

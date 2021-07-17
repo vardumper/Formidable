@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Exception;
 
-use DASPRiD\Formidable\Exception\InvalidValueException;
+use vardumper\Formidable\Exception\InvalidValueException;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

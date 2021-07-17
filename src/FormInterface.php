@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable;
 
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\FormError\FormErrorSequence;
 use Psr\Http\Message\ServerRequestInterface;
 
 interface FormInterface

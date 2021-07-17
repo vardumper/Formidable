@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Mapping\Constraint\ConstraintInterface;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Mapping\Constraint\ConstraintInterface;
 
 interface MappingInterface
 {

@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Helper;
 
-use DASPRiD\Formidable\Field;
-use DASPRiD\Formidable\Helper\Exception\InvalidSelectLabelException;
+use vardumper\Formidable\Field;
+use vardumper\Formidable\Helper\Exception\InvalidSelectLabelException;
 use DOMDocument;
 use DOMNode;
 

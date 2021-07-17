@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\FormError;
 
-use DASPRiD\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\FormError\FormErrorSequence;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class FormErrorAssertion

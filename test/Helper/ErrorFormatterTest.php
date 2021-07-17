@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Helper;
 
-use DASPRiD\Formidable\Helper\ErrorFormatter;
-use DASPRiD\Formidable\Helper\Exception\NonExistentMessageException;
+use vardumper\Formidable\Helper\ErrorFormatter;
+use vardumper\Formidable\Helper\Exception\NonExistentMessageException;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

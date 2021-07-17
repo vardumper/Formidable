@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
-use DASPRiD\Formidable\Mapping\Exception\InvalidTypeException;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\Mapping\Exception\InvalidTypeException;
 
 final class RepeatedMapping implements MappingInterface
 {

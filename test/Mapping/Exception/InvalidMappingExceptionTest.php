@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Exception;
 
-use DASPRiD\Formidable\Mapping\Exception\InvalidMappingException;
-use DASPRiD\Formidable\Mapping\MappingInterface;
+use vardumper\Formidable\Mapping\Exception\InvalidMappingException;
+use vardumper\Formidable\Mapping\MappingInterface;
 use PHPUnit_Framework_TestCase as TestCase;
 use stdClass;
 

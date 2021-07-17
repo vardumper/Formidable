@@ -3,10 +3,10 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Helper;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Field;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
-use DASPRiD\Formidable\Helper\InputPassword;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Field;
+use vardumper\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\Helper\InputPassword;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Exception;
 
-use DASPRiD\Formidable\Mapping\Exception\ValidBindResultException;
+use vardumper\Formidable\Mapping\Exception\ValidBindResultException;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

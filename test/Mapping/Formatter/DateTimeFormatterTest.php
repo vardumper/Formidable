@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Formatter;
 
-use DASPRiD\Formidable\Data;
-use DASPRiD\Formidable\Mapping\Formatter\DateTimeFormatter;
-use DASPRiD\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
+use vardumper\Formidable\Data;
+use vardumper\Formidable\Mapping\Formatter\DateTimeFormatter;
+use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 use DateTimeImmutable;
 use DateTimeZone;
 use PHPUnit_Framework_TestCase as TestCase;

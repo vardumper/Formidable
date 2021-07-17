@@ -3,9 +3,9 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidStepException;
-use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
-use DASPRiD\Formidable\Mapping\Constraint\StepNumberConstraint;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidStepException;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
+use vardumper\Formidable\Mapping\Constraint\StepNumberConstraint;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**

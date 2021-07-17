@@ -3,12 +3,12 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable;
 
-use DASPRiD\Formidable\Exception\InvalidDataException;
-use DASPRiD\Formidable\Exception\UnboundDataException;
-use DASPRiD\Formidable\FormError\FormError;
-use DASPRiD\Formidable\FormError\FormErrorSequence;
-use DASPRiD\Formidable\Mapping\MappingInterface;
-use DASPRiD\Formidable\Transformer\TrimTransformer;
+use vardumper\Formidable\Exception\InvalidDataException;
+use vardumper\Formidable\Exception\UnboundDataException;
+use vardumper\Formidable\FormError\FormError;
+use vardumper\Formidable\FormError\FormErrorSequence;
+use vardumper\Formidable\Mapping\MappingInterface;
+use vardumper\Formidable\Transformer\TrimTransformer;
 use Psr\Http\Message\ServerRequestInterface;
 
 final class Form implements FormInterface

@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace vardumper\FormidableTest\Mapping\Constraint;
 
-use DASPRiD\Formidable\Mapping\Constraint\ValidationError;
-use DASPRiD\Formidable\Mapping\Constraint\ValidationResult;
+use vardumper\Formidable\Mapping\Constraint\ValidationError;
+use vardumper\Formidable\Mapping\Constraint\ValidationResult;
 use PHPUnit_Framework_TestCase as TestCase;
 
 /**
