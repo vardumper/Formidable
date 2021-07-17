@@ -3,10 +3,10 @@ declare(strict_types = 1);
 
 namespace vardumper\Formidable\Mapping\Constraint;
 
-use Assert\Assertion;
 use vardumper\Formidable\Mapping\Constraint\ConstraintInterface;
 use vardumper\Formidable\Mapping\Constraint\ValidationResult;
 use vardumper\Formidable\Mapping\Constraint\ValidationError;
+use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 
 class FloatConstraint implements ConstraintInterface
 {
@@ -15,6 +15,10 @@ class FloatConstraint implements ConstraintInterface
      */
     public function __invoke($value) :  ValidationResult
     {
+        if (!is_float($value) && !is_double($value) && !is_real($value)) {
+            throw InvalidTypeException::fromInvalidType($value, 'float|double|real');
+        }
+        /* no validation of empty or null */
         if (empty($value) || is_null($value)) {
             return new ValidationResult();
         }
