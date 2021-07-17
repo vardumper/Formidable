@@ -1,7 +1,7 @@
 # Formidable
 
 [![Build Status](https://travis-ci.org/vardumper/Formidable.svg?branch=master)](https://travis-ci.org/vardumper/Formidable)
-[![Coverage Status](https://coveralls.io/repos/github/vardumper/Formidable/badge.svg?branch=master)](https://coveralls.io/github/vardumper
+[![Coverage Status](https://coveralls.io/repos/github/vardumper/Formidable/badge.svg?branch=master)](https://coveralls.io/github/vardumper/Formidable?branch=master)
 [![Reference Status](https://www.versioneye.com/php/vardumper:formidable/reference_badge.svg?style=flat)](https://www.versioneye.com/php/vardumper:formidable/references)
 [![Latest Stable Version](https://poser.pugx.org/vardumper/formidable/v/stable)](https://packagist.org/packages/vardumper/formidable)
 [![Total Downloads](https://poser.pugx.org/vardumper/formidable/downloads)](https://packagist.org/packages/vardumper/formidable)
