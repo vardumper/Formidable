@@ -1,5 +1,5 @@
 {
-    "name": "dasprid/formidable",
+    "name": "vardumper/formidable",
     "description": "PHP 7 form library for handling user input",
     "type": "library",
     "license": "BSD-2-Clause",
@@ -7,6 +7,10 @@
         {
             "name": "Ben Scholzen 'DASPRiD'",
             "homepage": "https://dasprids.de/"
+        },
+        {
+            "name": "Erik Pöhler",
+            "homepage": "https://erikpoehler.com/"
         }
     ],
     "keywords": [
@@ -18,7 +22,7 @@
         "psr-7"
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.0|^8.0",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
@@ -35,12 +39,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DASPRiD\\Formidable\\": "src/"
+            "vardumper\\Formidable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DASPRiD\\FormidableTest\\": "test/"
+            "vardumper\\FormidableTest\\": "test/"
         }
     },
     "scripts": {
