@@ -8,11 +8,11 @@ use vardumper\Formidable\Field;
 use vardumper\Formidable\FormError\FormErrorSequence;
 use vardumper\Formidable\Helper\Exception\InvalidSelectLabelException;
 use vardumper\Formidable\Helper\Select;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\Select
- * @covers DASPRiD\Formidable\Helper\AttributeTrait
+ * @covers vardumper\Formidable\Helper\Select
+ * @covers vardumper\Formidable\Helper\AttributeTrait
  */
 class SelectTest extends TestCase
 {

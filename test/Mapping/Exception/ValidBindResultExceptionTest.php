@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Exception\ValidBindResultException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Exception\ValidBindResultException
+ * @covers vardumper\Formidable\Mapping\Exception\ValidBindResultException
  */
 class ValidBindResultExceptionTest extends TestCase
 {

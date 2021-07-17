@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidLengthException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidLengthException
+ * @covers vardumper\Formidable\Mapping\Constraint\Exception\InvalidLengthException
  */
 class InvalidLengthExceptionTest extends TestCase
 {

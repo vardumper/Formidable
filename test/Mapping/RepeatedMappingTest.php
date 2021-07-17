@@ -12,11 +12,11 @@ use vardumper\Formidable\Mapping\Constraint\ValidationResult;
 use vardumper\Formidable\Mapping\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\MappingInterface;
 use vardumper\Formidable\Mapping\RepeatedMapping;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\RepeatedMapping
- * @covers DASPRiD\Formidable\Mapping\MappingTrait
+ * @covers vardumper\Formidable\Mapping\RepeatedMapping
+ * @covers vardumper\Formidable\Mapping\MappingTrait
  */
 class RepeatedMappingTest extends TestCase
 {

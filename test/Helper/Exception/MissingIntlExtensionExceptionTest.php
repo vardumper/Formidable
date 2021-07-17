@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Helper\Exception;
 
 use vardumper\Formidable\Helper\Exception\MissingIntlExtensionException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\Exception\MissingIntlExtensionException
+ * @covers vardumper\Formidable\Helper\Exception\MissingIntlExtensionException
  */
 class MissingIntlExtensionExceptionTest extends TestCase
 {

@@ -10,13 +10,13 @@ use vardumper\Formidable\Form;
 use vardumper\Formidable\FormError\FormError;
 use vardumper\Formidable\Mapping\BindResult;
 use vardumper\Formidable\Mapping\MappingInterface;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\StreamInterface;
 
 /**
- * @covers DASPRiD\Formidable\Form
+ * @covers vardumper\Formidable\Form
  */
 class FormTest extends TestCase
 {

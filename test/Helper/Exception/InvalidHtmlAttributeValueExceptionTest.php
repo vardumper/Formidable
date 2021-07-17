@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Helper\Exception;
 
 use vardumper\Formidable\Helper\Exception\InvalidHtmlAttributeValueException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\Exception\InvalidHtmlAttributeValueException
+ * @covers vardumper\Formidable\Helper\Exception\InvalidHtmlAttributeValueException
  */
 class InvalidHtmlAttributeValueExceptionTest extends TestCase
 {

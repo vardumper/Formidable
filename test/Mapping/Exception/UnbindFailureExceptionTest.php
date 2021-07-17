@@ -5,11 +5,11 @@ namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Exception\UnbindFailureException;
 use Exception;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Exception\UnbindFailureException
- * @covers DASPRiD\Formidable\Mapping\Exception\NestedMappingExceptionTrait
+ * @covers vardumper\Formidable\Mapping\Exception\UnbindFailureException
+ * @covers vardumper\Formidable\Mapping\Exception\NestedMappingExceptionTrait
  */
 class UnbindFailureExceptionTest extends TestCase
 {

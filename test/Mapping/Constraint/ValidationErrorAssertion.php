@@ -4,7 +4,7 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Constraint;
 
 use vardumper\Formidable\Mapping\Constraint\ValidationResult;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 class ValidationErrorAssertion
 {

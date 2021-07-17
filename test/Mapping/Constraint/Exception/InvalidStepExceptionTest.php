@@ -5,11 +5,11 @@ namespace vardumper\FormidableTest\Mapping\Constraint\Exception;
 
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidStepException;
 use Litipk\BigNumbers\Decimal;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidStepException
+ * @covers vardumper\Formidable\Mapping\Constraint\Exception\InvalidStepException
  */
 class InvalidStepExceptionTest extends TestCase
 {

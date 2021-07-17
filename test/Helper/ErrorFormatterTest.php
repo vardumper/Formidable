@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\Helper;
 
 use vardumper\Formidable\Helper\ErrorFormatter;
 use vardumper\Formidable\Helper\Exception\NonExistentMessageException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\ErrorFormatter
+ * @covers vardumper\Formidable\Helper\ErrorFormatter
  */
 class ErrorFormatterTest extends TestCase
 {

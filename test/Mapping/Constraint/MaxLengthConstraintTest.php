@@ -6,10 +6,10 @@ namespace vardumper\FormidableTest\Mapping\Constraint;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidLengthException;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\Constraint\MaxLengthConstraint;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\MaxLengthConstraint
+ * @covers vardumper\Formidable\Mapping\Constraint\MaxLengthConstraint
  */
 class MaxLengthConstraintTest extends TestCase
 {

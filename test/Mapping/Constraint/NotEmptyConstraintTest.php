@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\Mapping\Constraint;
 
 use vardumper\Formidable\Mapping\Constraint\NotEmptyConstraint;
 use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\NotEmptyConstraint
+ * @covers vardumper\Formidable\Mapping\Constraint\NotEmptyConstraint
  */
 class NotEmptyConstraintTest extends TestCase
 {

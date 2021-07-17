@@ -6,10 +6,10 @@ namespace vardumper\FormidableTest\Mapping\Formatter;
 use vardumper\Formidable\Data;
 use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\Formatter\IntegerFormatter;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Formatter\IntegerFormatter
+ * @covers vardumper\Formidable\Mapping\Formatter\IntegerFormatter
  */
 class IntegerFormatterTest extends TestCase
 {

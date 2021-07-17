@@ -21,13 +21,13 @@ use vardumper\Formidable\Mapping\MappingInterface;
 use vardumper\Formidable\Mapping\ObjectMapping;
 use vardumper\FormidableTest\Mapping\TestAsset\SimpleObject;
 use Exception;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use stdClass;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\ObjectMapping
- * @covers DASPRiD\Formidable\Mapping\MappingTrait
+ * @covers vardumper\Formidable\Mapping\ObjectMapping
+ * @covers vardumper\Formidable\Mapping\MappingTrait
  */
 class ObjectMappingTest extends TestCase
 {

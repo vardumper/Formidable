@@ -8,10 +8,10 @@ use vardumper\Formidable\Exception\InvalidKeyException;
 use vardumper\Formidable\Exception\InvalidValueException;
 use vardumper\Formidable\Exception\NonExistentKeyException;
 use vardumper\Formidable\Transformer\TransformerInterface;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Data
+ * @covers vardumper\Formidable\Data
  */
 class DataTest extends TestCase
 {

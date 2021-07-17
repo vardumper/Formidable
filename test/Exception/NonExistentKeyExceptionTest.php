@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Exception;
 
 use vardumper\Formidable\Exception\NonExistentKeyException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Exception\NonExistentKeyException
+ * @covers vardumper\Formidable\Exception\NonExistentKeyException
  */
 class NonExistentKeyExceptionTest extends TestCase
 {

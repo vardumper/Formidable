@@ -18,10 +18,10 @@ use vardumper\Formidable\Mapping\Formatter\IntegerFormatter;
 use vardumper\Formidable\Mapping\Formatter\TextFormatter;
 use vardumper\Formidable\Mapping\Formatter\TimeFormatter;
 use DateTimeZone;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\FieldMappingFactory
+ * @covers vardumper\Formidable\Mapping\FieldMappingFactory
  */
 class FieldMappingFactoryTest extends TestCase
 {

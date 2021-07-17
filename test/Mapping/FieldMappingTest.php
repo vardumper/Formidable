@@ -11,11 +11,11 @@ use vardumper\Formidable\Mapping\Constraint\ValidationResult;
 use vardumper\Formidable\Mapping\FieldMapping;
 use vardumper\Formidable\Mapping\Formatter\FormatterInterface;
 use vardumper\Formidable\Mapping\MappingInterface;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\FieldMapping
- * @covers DASPRiD\Formidable\Mapping\MappingTrait
+ * @covers vardumper\Formidable\Mapping\FieldMapping
+ * @covers vardumper\Formidable\Mapping\MappingTrait
  */
 class FieldMappingTest extends TestCase
 {

@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Exception;
 
 use vardumper\Formidable\Exception\UnboundDataException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Exception\UnboundDataException
+ * @covers vardumper\Formidable\Exception\UnboundDataException
  */
 class UnboundDataExceptionTest extends TestCase
 {

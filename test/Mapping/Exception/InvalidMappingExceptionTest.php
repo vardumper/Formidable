@@ -5,11 +5,11 @@ namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Exception\InvalidMappingException;
 use vardumper\Formidable\Mapping\MappingInterface;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Exception\InvalidMappingException
+ * @covers vardumper\Formidable\Mapping\Exception\InvalidMappingException
  */
 class InvalidMappingExceptionTest extends TestCase
 {

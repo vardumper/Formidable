@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Constraint;
 
 use vardumper\Formidable\Mapping\Constraint\ValidationError;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\ValidationError
+ * @covers vardumper\Formidable\Mapping\Constraint\ValidationError
  */
 class ValidationErrorTest extends TestCase
 {

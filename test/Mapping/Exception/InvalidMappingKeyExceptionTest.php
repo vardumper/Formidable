@@ -4,11 +4,11 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Exception\InvalidMappingKeyException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Exception\InvalidMappingKeyException
+ * @covers vardumper\Formidable\Mapping\Exception\InvalidMappingKeyException
  */
 class InvalidMappingKeyExceptionTest extends TestCase
 {

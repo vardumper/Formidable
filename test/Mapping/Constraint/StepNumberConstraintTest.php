@@ -6,10 +6,10 @@ namespace vardumper\FormidableTest\Mapping\Constraint;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidStepException;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\Constraint\StepNumberConstraint;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\StepNumberConstraint
+ * @covers vardumper\Formidable\Mapping\Constraint\StepNumberConstraint
  */
 class StepNumberConstraintTest extends TestCase
 {

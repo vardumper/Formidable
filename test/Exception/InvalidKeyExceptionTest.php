@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Exception;
 
 use vardumper\Formidable\Exception\InvalidKeyException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Exception\InvalidKeyException
+ * @covers vardumper\Formidable\Exception\InvalidKeyException
  */
 class InvalidKeyExceptionTest extends TestCase
 {

@@ -9,11 +9,11 @@ use vardumper\Formidable\Helper\ErrorFormatter;
 use vardumper\Formidable\Helper\ErrorList;
 use vardumper\Formidable\Helper\Exception\InvalidHtmlAttributeKeyException;
 use vardumper\Formidable\Helper\Exception\InvalidHtmlAttributeValueException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\ErrorList
- * @covers DASPRiD\Formidable\Helper\AttributeTrait
+ * @covers vardumper\Formidable\Helper\ErrorList
+ * @covers vardumper\Formidable\Helper\AttributeTrait
  */
 class ErrorListTest extends TestCase
 {

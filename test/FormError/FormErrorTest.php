@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\FormError;
 
 use vardumper\Formidable\FormError\FormError;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\FormError\FormError
+ * @covers vardumper\Formidable\FormError\FormError
  */
 class FormErrorTest extends TestCase
 {

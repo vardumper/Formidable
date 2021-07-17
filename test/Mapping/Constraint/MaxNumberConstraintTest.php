@@ -6,10 +6,10 @@ namespace vardumper\FormidableTest\Mapping\Constraint;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidLimitException;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\Constraint\MaxNumberConstraint;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\MaxNumberConstraint
+ * @covers vardumper\Formidable\Mapping\Constraint\MaxNumberConstraint
  */
 class MaNumberConstraintTest extends TestCase
 {

@@ -4,11 +4,11 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Constraint\Exception;
 
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException
+ * @covers vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException
  */
 class InvalidTypeExceptionTest extends TestCase
 {

@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\Mapping\Formatter;
 
 use vardumper\Formidable\Data;
 use vardumper\Formidable\Mapping\Formatter\IgnoredFormatter;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Formatter\IgnoredFormatter
+ * @covers vardumper\Formidable\Mapping\Formatter\IgnoredFormatter
  */
 class IgnoredFormatterTest extends TestCase
 {

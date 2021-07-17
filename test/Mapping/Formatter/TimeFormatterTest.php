@@ -8,10 +8,10 @@ use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\Formatter\TimeFormatter;
 use DateTimeImmutable;
 use DateTimeZone;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Formatter\TimeFormatter
+ * @covers vardumper\Formidable\Mapping\Formatter\TimeFormatter
  */
 class TimeFormatterTest extends TestCase
 {

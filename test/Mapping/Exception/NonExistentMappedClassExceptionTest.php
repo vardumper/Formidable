@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Exception\NonExistentMappedClassException;
 use vardumper\Formidable\Mapping\MappingInterface;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Exception\NonExistentMappedClassException
+ * @covers vardumper\Formidable\Mapping\Exception\NonExistentMappedClassException
  */
 class NonExistentMappedClassExceptionTest extends TestCase
 {

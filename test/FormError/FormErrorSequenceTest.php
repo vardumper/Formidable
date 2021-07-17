@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\FormError;
 
 use vardumper\Formidable\FormError\FormError;
 use vardumper\Formidable\FormError\FormErrorSequence;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\FormError\FormErrorSequence
+ * @covers vardumper\Formidable\FormError\FormErrorSequence
  */
 class FormErrorSequenceTest extends TestCase
 {

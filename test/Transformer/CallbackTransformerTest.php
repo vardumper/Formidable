@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping;
 
 use vardumper\Formidable\Transformer\CallbackTransformer;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Transformer\CallbackTransformer
+ * @covers vardumper\Formidable\Transformer\CallbackTransformer
  */
 class CallbackTransformerTest extends TestCase
 {

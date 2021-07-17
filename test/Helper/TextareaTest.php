@@ -7,11 +7,11 @@ use vardumper\Formidable\Data;
 use vardumper\Formidable\Field;
 use vardumper\Formidable\FormError\FormErrorSequence;
 use vardumper\Formidable\Helper\Textarea;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\Textarea
- * @covers DASPRiD\Formidable\Helper\AttributeTrait
+ * @covers vardumper\Formidable\Helper\Textarea
+ * @covers vardumper\Formidable\Helper\AttributeTrait
  */
 class TextareaTest extends TestCase
 {

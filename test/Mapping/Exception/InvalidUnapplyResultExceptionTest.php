@@ -4,11 +4,11 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Mapping\Exception;
 
 use vardumper\Formidable\Mapping\Exception\InvalidUnapplyResultException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Exception\InvalidUnapplyResultException
+ * @covers vardumper\Formidable\Mapping\Exception\InvalidUnapplyResultException
  */
 class InvalidUnapplyResultExceptionTest extends TestCase
 {

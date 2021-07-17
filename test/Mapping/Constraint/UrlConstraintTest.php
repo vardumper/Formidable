@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\Mapping\Constraint;
 
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 use vardumper\Formidable\Mapping\Constraint\UrlConstraint;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\UrlConstraint
+ * @covers vardumper\Formidable\Mapping\Constraint\UrlConstraint
  */
 class UrlConstraintTest extends TestCase
 {

@@ -7,11 +7,11 @@ use vardumper\Formidable\Data;
 use vardumper\Formidable\Field;
 use vardumper\Formidable\FormError\FormErrorSequence;
 use vardumper\Formidable\Helper\InputCheckbox;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Helper\InputCheckbox
- * @covers DASPRiD\Formidable\Helper\AttributeTrait
+ * @covers vardumper\Formidable\Helper\InputCheckbox
+ * @covers vardumper\Formidable\Helper\AttributeTrait
  */
 class InputCheckboxTest extends TestCase
 {

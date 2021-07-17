@@ -4,10 +4,10 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\Exception;
 
 use vardumper\Formidable\Exception\InvalidDataException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Exception\InvalidDataException
+ * @covers vardumper\Formidable\Exception\InvalidDataException
  */
 class InvalidDataExceptionTest extends TestCase
 {

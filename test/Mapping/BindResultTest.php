@@ -9,10 +9,10 @@ use vardumper\Formidable\Mapping\BindResult;
 use vardumper\Formidable\Mapping\Exception\InvalidBindResultException;
 use vardumper\Formidable\Mapping\Exception\ValidBindResultException;
 use vardumper\FormidableTest\FormError\FormErrorAssertion;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\BindResult
+ * @covers vardumper\Formidable\Mapping\BindResult
  */
 class BindResultTest extends TestCase
 {

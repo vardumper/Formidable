@@ -5,10 +5,10 @@ namespace vardumper\FormidableTest\Mapping\Constraint;
 
 use vardumper\Formidable\Mapping\Constraint\EmailAddressConstraint;
 use vardumper\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Constraint\EmailAddressConstraint
+ * @covers vardumper\Formidable\Mapping\Constraint\EmailAddressConstraint
  */
 class EmailAddressConstraintTest extends TestCase
 {

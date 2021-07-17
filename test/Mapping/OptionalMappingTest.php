@@ -11,12 +11,12 @@ use vardumper\Formidable\Mapping\Constraint\ValidationError;
 use vardumper\Formidable\Mapping\Constraint\ValidationResult;
 use vardumper\Formidable\Mapping\MappingInterface;
 use vardumper\Formidable\Mapping\OptionalMapping;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\OptionalMapping
- * @covers DASPRiD\Formidable\Mapping\MappingTrait
+ * @covers vardumper\Formidable\Mapping\OptionalMapping
+ * @covers vardumper\Formidable\Mapping\MappingTrait
  */
 class OptionalMappingTest extends TestCase
 {

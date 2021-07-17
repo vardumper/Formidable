@@ -6,10 +6,10 @@ namespace vardumper\FormidableTest\Mapping\Formatter;
 use vardumper\Formidable\Data;
 use vardumper\Formidable\Mapping\Formatter\BooleanFormatter;
 use vardumper\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
- * @covers DASPRiD\Formidable\Mapping\Formatter\BooleanFormatter
+ * @covers vardumper\Formidable\Mapping\Formatter\BooleanFormatter
  */
 class BooleanFormatterTest extends TestCase
 {

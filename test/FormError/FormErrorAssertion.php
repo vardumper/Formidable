@@ -4,7 +4,7 @@ declare(strict_types = 1);
 namespace vardumper\FormidableTest\FormError;
 
 use vardumper\Formidable\FormError\FormErrorSequence;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 
 class FormErrorAssertion
 {
