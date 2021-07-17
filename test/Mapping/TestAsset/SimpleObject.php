@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Mapping\TestAsset;
+namespace vardumper\FormidableTest\Mapping\TestAsset;
 
 class SimpleObject
 {

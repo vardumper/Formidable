@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable;
+namespace vardumper\Formidable;
 
 use DASPRiD\Formidable\Exception\InvalidDataException;
 use DASPRiD\Formidable\Exception\UnboundDataException;

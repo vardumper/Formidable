@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\FormError;
+namespace vardumper\Formidable\FormError;
 
 use ArrayIterator;
 use Countable;

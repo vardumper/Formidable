@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Mapping\Constraint\Exception;
+namespace vardumper\FormidableTest\Mapping\Constraint\Exception;
 
 use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidStepException;
 use Litipk\BigNumbers\Decimal;

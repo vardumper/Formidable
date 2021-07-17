@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Helper;
+namespace vardumper\FormidableTest\Helper;
 
 use DASPRiD\Formidable\Data;
 use DASPRiD\Formidable\Field;

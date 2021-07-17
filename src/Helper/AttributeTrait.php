@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Helper;
+namespace vardumper\Formidable\Helper;
 
 use DASPRiD\Formidable\Helper\Exception\InvalidHtmlAttributeKeyException;
 use DASPRiD\Formidable\Helper\Exception\InvalidHtmlAttributeValueException;

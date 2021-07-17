@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Mapping\Exception;
+namespace vardumper\Formidable\Mapping\Exception;
 
 use DASPRiD\Formidable\Mapping\MappingInterface;
 use DomainException;

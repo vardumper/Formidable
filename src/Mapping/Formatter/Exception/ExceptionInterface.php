@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Mapping\Formatter\Exception;
+namespace vardumper\Formidable\Mapping\Formatter\Exception;
 
 use Throwable;
 

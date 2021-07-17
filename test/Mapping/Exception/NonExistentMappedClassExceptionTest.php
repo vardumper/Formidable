@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Mapping\Exception;
+namespace vardumper\FormidableTest\Mapping\Exception;
 
 use DASPRiD\Formidable\Mapping\Exception\NonExistentMappedClassException;
 use DASPRiD\Formidable\Mapping\MappingInterface;

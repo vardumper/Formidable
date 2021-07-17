@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Mapping\Formatter;
+namespace vardumper\Formidable\Mapping\Formatter;
 
 use DASPRiD\Formidable\Data;
 use DASPRiD\Formidable\Mapping\BindResult;

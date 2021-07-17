@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Helper\Exception;
+namespace vardumper\Formidable\Helper\Exception;
 
 use OutOfBoundsException;
 

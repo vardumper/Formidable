@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Mapping;
+namespace vardumper\Formidable\Mapping;
 
 use DASPRiD\Formidable\FormError\FormError;
 use DASPRiD\Formidable\Mapping\Constraint\ConstraintInterface;

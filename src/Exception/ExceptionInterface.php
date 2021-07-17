@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Exception;
+namespace vardumper\Formidable\Exception;
 
 use Throwable;
 

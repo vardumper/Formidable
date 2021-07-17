@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Mapping\Constraint;
+namespace vardumper\Formidable\Mapping\Constraint;
 
 use DASPRiD\Formidable\Mapping\Constraint\Exception\InvalidTypeException;
 

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Mapping\Formatter\Exception;
+namespace vardumper\FormidableTest\Mapping\Formatter\Exception;
 
 use DASPRiD\Formidable\Mapping\Formatter\Exception\InvalidTypeException;
 use PHPUnit_Framework_TestCase as TestCase;

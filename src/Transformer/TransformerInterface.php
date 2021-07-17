@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\Formidable\Transformer;
+namespace vardumper\Formidable\Transformer;
 
 interface TransformerInterface
 {

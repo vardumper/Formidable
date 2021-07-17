@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Mapping\Formatter;
+namespace vardumper\FormidableTest\Mapping\Formatter;
 
 use DASPRiD\Formidable\Data;
 use DASPRiD\Formidable\Mapping\Formatter\DecimalFormatter;

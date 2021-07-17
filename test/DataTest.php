@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest;
+namespace vardumper\FormidableTest;
 
 use DASPRiD\Formidable\Data;
 use DASPRiD\Formidable\Exception\InvalidKeyException;

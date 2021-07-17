@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Helper\Exception;
+namespace vardumper\FormidableTest\Helper\Exception;
 
 use DASPRiD\Formidable\Helper\Exception\InvalidSelectLabelException;
 use PHPUnit_Framework_TestCase as TestCase;

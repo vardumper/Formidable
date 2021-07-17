@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace DASPRiD\FormidableTest\Helper;
+namespace vardumper\FormidableTest\Helper;
 
 use DASPRiD\Formidable\FormError\FormError;
 use DASPRiD\Formidable\FormError\FormErrorSequence;
